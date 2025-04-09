@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.exercise {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Exercicio 1: Centralizar uma div */
+.exercise1 {
+    position: relative;
+    height: 200px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exercise1 .box {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+}
+
+/* Exercicio 2: Centralizar texto verticalmente */
+.exercise2 {
+    display: flex;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.exercise2 .column {
+    width: 30%;
+    height: 100px;
+    background-color: #ffc107;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #ccc;
+}
+
+/* Exercicio 3: Layout em coluna */
+
+.exercise3 .column {
+    width: 30%;
+    height: 100px;
+    background-color: #ffc107;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #ccc;
+}
+
+/* Exercicio 4: centralizar e arredondar*/
+.exercise4 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exercise4 .column {
+    width: 400px;
+    height: 100px;
+    color: #fff;
+    background-color: #28a745;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    
+}
+
+/* Exercicio 5: Alinhamento flexível */
+.exercise5 {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.exercise5 .flex-item {
+    background-color: #6c757d;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
+
+/* Exercicio 6: Botão */
+.exercise6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.exercise6 button {
+    width: 200px;
+    height: 50px;
+    background-color: #007bff;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Exercicio 7: Input */
+.exercise7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exercise7 input {
+width: 200px;
+height: 50px;
+background-color: rgb(39, 37, 37);
+font-size: 15px;
+font-weight: bold;
+color: white;
+border-radius: 10px;
+}
+.exercise7 input::placeholder {
+}
+
+.exercise8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercise8 input{
+    border: none;
+    border-bottom: 1px solid #0a99f8;
+}
+
+.exercise9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercise9 input{
+}
+
+
+
